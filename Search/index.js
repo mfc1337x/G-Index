@@ -1,16 +1,16 @@
 var authConfig = {
-  siteName: 'G-Index', // WebSite Name
+  siteName: 'Anti-Piracy Piracy Club', // WebSite Name
   version: '1.0', // VersionControl, do not modify manually
   // Only material!
   theme: 'material', // material  classic
    //add themes color, darkmode
-  main_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
-  accent_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
-  dark_theme: false, // true for dark theme
+  main_color: 'deep-purple', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
+  accent_color: 'cyan', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
+  dark_theme: true, // true for dark theme
   // client_id & client_secret - PLEASE USE YOUR OWN!
-  client_id: '202264815644.apps.googleusercontent.com',
-  client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
-  refresh_token: '', // Refresh token
+  client_id: '574791926760-d26u8uju9v3jf7bfat411og4utpptjks.apps.googleusercontent.com',
+  client_secret: 'goZmy2Sw9jcM3PV-Xbv8iVPv',
+  refresh_token: '{"access_token":"ya29.a0Ae4lvC3BAK9oFG6Vm6Q1T12cZ9n7m_m2ktW_7wYTuCc4RsuQKXXY_DyLZYQWfQtfypSqVCBf8lPjqsKhskH22pac3sjf8eoBpKeWMcjnkip6MJ5SxQZJPLGyiVTvhKsqbA_itD0A_GKKDJa8j3tVMuQzTQdj5fRtBtc","token_type":"Bearer","refresh_token":"1//03mArFvgSAE3tCgYIARAAGAMSNwF-L9Ir0zyYzJM9CwgyCFPZ1NKlXfRPqpr_9pnBaLlCjTSyFsc7D1qNWQeqUK9ranCjwhXwWC4","expiry":"2020-05-10T04:40:17.4148772+02:00"}', // Refresh token
 
   /**
    * Set up multiple Drives to display; add multiples by format
@@ -25,23 +25,11 @@ var authConfig = {
   // It is possible to set only the password, only the user name, and the user name and password at the same time
   roots: [
     {
-      id: '',
-      name: 'Sample1',
-      user: 'admin',
-      pass: ''
+      id: '14F9w08OW96ATR1nbxdKeUra_tbx_qtiM',
+      name: 'Piracy',
+      user: '1337x',
+      pass: 'Welcome@1337x'
     },
-    {
-      id: 'drive_id',
-      name: 'Sample2',
-      user: 'admin2',
-      pass: 'index'
-    },
-    {
-      id: 'folder_id',
-      name: 'Sample3',
-      user: 'admin3',
-      pass: 'index2'
-    }
   ],
   /**
    * The number displayed on each page of the file list page. [Recommended setting value is between 100 and 1000];
